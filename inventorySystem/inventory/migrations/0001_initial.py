@@ -21,7 +21,6 @@ class Migration(migrations.Migration):
                 ('quantity_sold', models.IntegerField()),
                 ('sales', models.DecimalField(decimal_places=2, max_digits=19)),
                 ('stock_date', models.DateField(auto_now_add=True)),
-                ('last_sales_date', models.DateField(auto_now=True)),
             ],
         ),
     ]
